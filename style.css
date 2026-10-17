@@ -78,7 +78,16 @@ h1 {
         width: 95%;
         padding: 10px;
     }
+     
+    .card{
+    padding: 10px;
+    }
+
+    .container0{
+        padding: 30px;
     
+    }
+
     h1 {
         font-size: 1.5rem;
     }               
