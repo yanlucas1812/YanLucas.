@@ -1,0 +1,91 @@
+body {
+    background-color: #111111;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: #9e0b1a;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.container0 {
+    border: 4px solid #9e0b1a;
+    padding-bottom: 30px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.card {
+    border: 3px solid #dc3545;
+    background-color: #111111;
+    color: #ffffff;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Espaçamento entre os ícones */
+    border: 4px solid #9e0b1a;
+    padding: 10px; /* Espaçamento interno */
+    margin-top: 20px; /* Espaçamento acima da seção */
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+.table {
+    border: 2px solid #9e0b1a;
+}
+
+.table th {
+    background-color: #9e0b1a;
+    color: #ffffff;
+}
+
+/* Para celulares e tablets (telas de até 768px) */
+@media screen and (max-width: 768px) {
+    body {
+        padding: 20px;
+    }
+    
+    .container, main {
+        width: 95%;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    /* Organiza menus ou listas na vertical em telas pequenas */
+    nav ul, .menu {
+        flex-direction: column;
+        align-items: center;
+    }
+}
